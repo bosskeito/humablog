@@ -1,0 +1,143 @@
+*{
+  border: 1px red solid;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+.parallax {
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer{
+  padding-top: 10px;
+  z-index: 1;
+  bottom: 0;
+  width: 100vw;
+  text-align: center;
+  font-size: 10px;
+  background-color: black;
+  color: white;
+}
+
+.articleHeader{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.articleImage{
+  height: 75vh;
+  width: auto;
+  float: left;
+  border-radius: 20px;
+}
+
+.articleBox{
+  height: 75vh;
+  width: 50vw;
+  float: left;
+  margin-left: 50px;
+}
+
+.heroHeader{
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  font-size: 50px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.navbar{
+  position: fixed;
+  width: 100vw;
+  z-index: 1;
+}
+
+.writers{
+  width: 45vw;
+  float: left;
+  font-size: 20px;
+}
+
+.designer{
+  width: 45vw;
+  float: right;
+  font-size: 20px;
+}
+
+.hero{
+  background-color: orange;
+}
+
+.article1{
+  background-color: yellow;
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100vw;
+    height: 120vh;
+    top: 0;
+    left: 0;
+    margin: 0;
+    color: white;
+}
+
+.article2{
+  background-color: green;
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100vw;
+    height: 220vh;
+    top: 0;
+    left: 0;
+    margin: 0;
+}
+
+.article3{
+  background-color: pink;
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100vw;
+    height: 175vh;
+    top: 0;
+    left: 0;
+    margin: 0;
+    color: white;
+}
+
+.article4{
+  background-color: cyan;
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100vw;
+    height: 120vh;
+    top: 0;
+    left: 0;
+    margin: 0;
+}
+
+.aboutus{
+  background-color: gray;
+  color: white;
+}
+
+.section:not(.article1):not(.article2):not(.article3):not(.article4){
+  padding-top: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  margin: 0;
+}
